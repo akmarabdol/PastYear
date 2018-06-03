@@ -10,7 +10,7 @@ DatagramSocket ss=new DatagramSocket(1234);
  
 while(true){
  
-System.out.println("Server is up....");
+System.out.println("Server is up=");
  
 byte[] rd=new byte[100];
 byte[] sd=new byte[100];
