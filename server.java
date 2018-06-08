@@ -23,11 +23,11 @@ InetAddress ip= rp.getAddress();
  
 int port=rp.getPort();
  
-Date d=new Date();   // getting system time
+Date d=new Date();
  
-String time= d + "";  // converting it to String
+String time= d + "";  
  
-sd=time.getBytes();   // converting that String to byte
+sd=time.getBytes();   
  
 DatagramPacket sp=new DatagramPacket(sd,sd.length,ip,port);
  
