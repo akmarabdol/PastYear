@@ -9,7 +9,7 @@ public static void main(String[] args) throws Exception{
  
     DatagramSocket cs=new DatagramSocket();
  
-    InetAddress ip=InetAddress.getByName("192.168.43.136");
+    InetAddress ip=InetAddress.getByName("192.168.43.131");
  
     byte[] rd=new byte[100];
     byte[] sd=new byte[100];
